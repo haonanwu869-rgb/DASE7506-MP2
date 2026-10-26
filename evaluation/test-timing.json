@@ -1,0 +1,7 @@
+{
+  "split": "test",
+  "threads": 4,
+  "prediction_process_seconds": 2.8266077999724075,
+  "scoring_process_seconds": 0.6778664999874309,
+  "total_seconds": 3.5044742999598384
+}

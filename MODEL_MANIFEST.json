@@ -1,0 +1,37 @@
+{
+  "version": "mp2-attention-reliability-v1-20261021",
+  "selected_source": "runs/reliability/both_seed_7506",
+  "seed": 7506,
+  "test_evaluated": true,
+  "inference_assets": {
+    "config.json": {
+      "bytes": 213,
+      "sha256": "8affd4357bb31ff7660d60b0050a329ab381b1b39f472c96306542a14c4612e9"
+    },
+    "weights.npz": {
+      "bytes": 330942,
+      "sha256": "9c818c874539c990998bc5d41f0bb7a2bfea7eb2b2c90a63c5c09e91e5908a50"
+    }
+  },
+  "total_inference_bytes": 331155,
+  "test_evaluation_date": "2026-10-26",
+  "test_result": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 381,
+    "n": 467,
+    "accuracy": 81.5845824411135,
+    "scoring_seconds": 0.20083940000040457
+  },
+  "test_process_timing": {
+    "split": "test",
+    "threads": 4,
+    "prediction_process_seconds": 2.8266077999724075,
+    "scoring_process_seconds": 0.6778664999874309,
+    "total_seconds": 3.5044742999598384
+  },
+  "model_unchanged_since_validation": true,
+  "test_used_for_tuning": false,
+  "author": "wuhaonan",
+  "student_id": "3036843288"
+}

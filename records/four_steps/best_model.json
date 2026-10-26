@@ -1,0 +1,6 @@
+{
+  "name": "step3_attention",
+  "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step3_attention",
+  "method": "advanced_submission.py",
+  "selection_basis": "official validation accuracy; no test set accessed"
+}

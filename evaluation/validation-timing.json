@@ -1,0 +1,7 @@
+{
+  "split": "validation",
+  "threads": 4,
+  "prediction_process_seconds": 1.4786924000072759,
+  "scoring_process_seconds": 0.4694761999999173,
+  "total_seconds": 1.9481686000071932
+}

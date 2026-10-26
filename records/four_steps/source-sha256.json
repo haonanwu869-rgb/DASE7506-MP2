@@ -1,0 +1,11 @@
+{
+  "advanced_features.py": "582ce156c21c72d3f90a0dc011e8d18e9f75531d17358af60c8a706a098c9efb",
+  "advanced_submission.py": "3d84ea3e9dcd10ed617552f0fc7bcc65b6f770968c3f86c66305a8d761985e02",
+  "run_four_steps.py": "fb3788f019c743687fea64574a200b4757bd1a7bd458e290d272f66f82a953cf",
+  "evaluate_best.py": "558bf886c21086c78960feafa9b207750dadc02277004765cf33eebf304f3f88",
+  "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+  "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+  "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+  "submission.py": "1d57a990da3b6edb53ffee52caac4afcef32df92e9dc9f9ff61317d8b4a9b7a1",
+  "train_logreg.py": "a699f4daf6c415ae9e295ab8cd5742eebaf7a4eaf217e3bbfa3f97f162a8c351"
+}

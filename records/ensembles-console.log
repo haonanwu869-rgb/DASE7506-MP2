@@ -1,0 +1,8 @@
+Train=4755, internal=3804/951, validation=798, validation distinct-answer subset=355
+RESULT old_single: 737/798 = 92.36%; hard=82.82%; 0.312 MiB; wall=1.67s
+RESULT new_single: 743/798 = 93.11%; hard=84.51%; 0.316 MiB; wall=2.14s
+RESULT old_new_pair: 740/798 = 92.73%; hard=83.66%; 0.628 MiB; wall=2.54s
+RESULT old_five: 737/798 = 92.36%; hard=82.82%; 1.559 MiB; wall=1.76s
+RESULT new_five: 740/798 = 92.73%; hard=83.66%; 1.579 MiB; wall=2.30s
+RESULT old_new_ten: 737/798 = 92.36%; hard=82.82%; 3.138 MiB; wall=2.76s
+SELECTED new_single 93.10776942355889

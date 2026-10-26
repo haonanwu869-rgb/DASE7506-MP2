@@ -1,0 +1,338 @@
+[
+  {
+    "name": "old_single",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 737,
+    "n": 798,
+    "accuracy": 92.35588972431077,
+    "scoring_seconds": 0.05308869999134913,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 1.6679512000118848,
+    "checkpoint_bytes": 327019,
+    "hard_n": 355,
+    "hard_correct": 294,
+    "hard_accuracy": 82.81689882278442,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\old_single",
+    "assets": {
+      "ensemble.json": {
+        "bytes": 88,
+        "sha256": "0703121249043d67e4da0e6d56792926de80d36bf15d4a134a432c64e731d180"
+      },
+      "member_00\\config.json": {
+        "bytes": 213,
+        "sha256": "c62125117cfc92ebb8ef184d352865ffa81e604c5db21af60f2dfa2390f54439"
+      },
+      "member_00\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "fcd279cc6a1f36a78b7cc7dce1839e0f26ef86ee79d2cb4128205aafb2a7e101"
+      }
+    },
+    "stage": "equal_weight_ensemble",
+    "members": 1
+  },
+  {
+    "name": "new_single",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 743,
+    "n": 798,
+    "accuracy": 93.10776942355889,
+    "scoring_seconds": 0.07508370000869036,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 2.1448568000050727,
+    "checkpoint_bytes": 331243,
+    "hard_n": 355,
+    "hard_correct": 300,
+    "hard_accuracy": 84.50704216957092,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\new_single",
+    "assets": {
+      "ensemble.json": {
+        "bytes": 88,
+        "sha256": "0703121249043d67e4da0e6d56792926de80d36bf15d4a134a432c64e731d180"
+      },
+      "member_00\\config.json": {
+        "bytes": 213,
+        "sha256": "8affd4357bb31ff7660d60b0050a329ab381b1b39f472c96306542a14c4612e9"
+      },
+      "member_00\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "9c818c874539c990998bc5d41f0bb7a2bfea7eb2b2c90a63c5c09e91e5908a50"
+      }
+    },
+    "stage": "equal_weight_ensemble",
+    "members": 1
+  },
+  {
+    "name": "old_new_pair",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 740,
+    "n": 798,
+    "accuracy": 92.73182957393483,
+    "scoring_seconds": 0.061478599993279204,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 2.5448897999885958,
+    "checkpoint_bytes": 658192,
+    "hard_n": 355,
+    "hard_correct": 297,
+    "hard_accuracy": 83.66197347640991,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\old_new_pair",
+    "assets": {
+      "ensemble.json": {
+        "bytes": 106,
+        "sha256": "b9a206355ac64692e1cbb5d04d7855a885d0f54fdaa840747d1e556d03aabc4e"
+      },
+      "member_00\\config.json": {
+        "bytes": 213,
+        "sha256": "c62125117cfc92ebb8ef184d352865ffa81e604c5db21af60f2dfa2390f54439"
+      },
+      "member_00\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "fcd279cc6a1f36a78b7cc7dce1839e0f26ef86ee79d2cb4128205aafb2a7e101"
+      },
+      "member_01\\config.json": {
+        "bytes": 213,
+        "sha256": "8affd4357bb31ff7660d60b0050a329ab381b1b39f472c96306542a14c4612e9"
+      },
+      "member_01\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "9c818c874539c990998bc5d41f0bb7a2bfea7eb2b2c90a63c5c09e91e5908a50"
+      }
+    },
+    "stage": "equal_weight_ensemble",
+    "members": 2
+  },
+  {
+    "name": "old_five",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 737,
+    "n": 798,
+    "accuracy": 92.35588972431077,
+    "scoring_seconds": 0.06057980001787655,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 1.7640507000032812,
+    "checkpoint_bytes": 1634811,
+    "hard_n": 355,
+    "hard_correct": 294,
+    "hard_accuracy": 82.81689882278442,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\old_five",
+    "assets": {
+      "ensemble.json": {
+        "bytes": 160,
+        "sha256": "2e377518595d91dd282b24b8006d7f46d9812d4f34dd5e332d042f51509d57eb"
+      },
+      "member_00\\config.json": {
+        "bytes": 213,
+        "sha256": "c62125117cfc92ebb8ef184d352865ffa81e604c5db21af60f2dfa2390f54439"
+      },
+      "member_00\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "fcd279cc6a1f36a78b7cc7dce1839e0f26ef86ee79d2cb4128205aafb2a7e101"
+      },
+      "member_01\\config.json": {
+        "bytes": 211,
+        "sha256": "6c739bb442f2248a35473e431f6af3b7f808bf6968e3ae8977a4126c23617c3e"
+      },
+      "member_01\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "d5a48226391035f202965ad40452fbb26ad4ca0e8b49d57997e651747e8c92e3"
+      },
+      "member_02\\config.json": {
+        "bytes": 211,
+        "sha256": "11c70c64e9c2c542544e4f737df13aa5a0be6108020caa42ddacd7390a3b207c"
+      },
+      "member_02\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "fdb2bb3e2dab9871c3dcc0593c9bfbf6368dab255f20980db2fe94870b165173"
+      },
+      "member_03\\config.json": {
+        "bytes": 213,
+        "sha256": "0e782943e75559b3906a2d8838a8964656ce5e4bbcddceeae6bebcf509bda2ba"
+      },
+      "member_03\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "787d0ad21f68b27d21ebb19fe01c3ed8a5f6a54c9e44883c9946eea51d347041"
+      },
+      "member_04\\config.json": {
+        "bytes": 213,
+        "sha256": "a20896803ad3e815f23d4c8c71350cf5ce0577bec6f61360f735570fef8e9564"
+      },
+      "member_04\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "d0dfb18cab34c15c57b5c1262f5414e402e116c9e3ad624fc997e08342bdfa23"
+      }
+    },
+    "stage": "equal_weight_ensemble",
+    "members": 5
+  },
+  {
+    "name": "new_five",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 740,
+    "n": 798,
+    "accuracy": 92.73182957393483,
+    "scoring_seconds": 0.062496200000168756,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 2.3028687000041828,
+    "checkpoint_bytes": 1655931,
+    "hard_n": 355,
+    "hard_correct": 297,
+    "hard_accuracy": 83.66197347640991,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\new_five",
+    "assets": {
+      "ensemble.json": {
+        "bytes": 160,
+        "sha256": "2e377518595d91dd282b24b8006d7f46d9812d4f34dd5e332d042f51509d57eb"
+      },
+      "member_00\\config.json": {
+        "bytes": 213,
+        "sha256": "8affd4357bb31ff7660d60b0050a329ab381b1b39f472c96306542a14c4612e9"
+      },
+      "member_00\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "9c818c874539c990998bc5d41f0bb7a2bfea7eb2b2c90a63c5c09e91e5908a50"
+      },
+      "member_01\\config.json": {
+        "bytes": 211,
+        "sha256": "82bd7c1cf315574b122ee58c813e2ae7f747e9a0a8685ea4a5f19ad7918bcb3d"
+      },
+      "member_01\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "e0d1ba9996c04230cd19e4426f9de62057fee5ab9a937fb2c0d15c1362d41b19"
+      },
+      "member_02\\config.json": {
+        "bytes": 211,
+        "sha256": "f46d28f71d074e00025417389eb41317655b2c62d942c3484169f16f365fe2f1"
+      },
+      "member_02\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "43f820da3719a121291f82e900c057fe139d5c13f8c4c85993f90a00a46fdae5"
+      },
+      "member_03\\config.json": {
+        "bytes": 213,
+        "sha256": "19e7ab565490bd7ccda58cac6783de956f24edb534360c4ef8091f71037a00b8"
+      },
+      "member_03\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "c0aa7528eda86783a67b4a880f7e61f300a7bc43de27d4089601f3c375c6b150"
+      },
+      "member_04\\config.json": {
+        "bytes": 213,
+        "sha256": "f5dcc9acac176d57c4e592925ad464b2e45703ab16df0a2cc35ae7cadc72fc5c"
+      },
+      "member_04\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "4c8998f09e700ad18aaa7220afcff759dd889dd148bbc4587afd7d6ac2ba7214"
+      }
+    },
+    "stage": "equal_weight_ensemble",
+    "members": 5
+  },
+  {
+    "name": "old_new_ten",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 737,
+    "n": 798,
+    "accuracy": 92.35588972431077,
+    "scoring_seconds": 0.058152100013103336,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 2.7556804999767337,
+    "checkpoint_bytes": 3290672,
+    "hard_n": 355,
+    "hard_correct": 294,
+    "hard_accuracy": 82.81689882278442,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\old_new_ten",
+    "assets": {
+      "ensemble.json": {
+        "bytes": 250,
+        "sha256": "36a3375cedc5f83303a9d3a798f295441bac03b60ef3a8f6d714222b3477b2e8"
+      },
+      "member_00\\config.json": {
+        "bytes": 213,
+        "sha256": "c62125117cfc92ebb8ef184d352865ffa81e604c5db21af60f2dfa2390f54439"
+      },
+      "member_00\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "fcd279cc6a1f36a78b7cc7dce1839e0f26ef86ee79d2cb4128205aafb2a7e101"
+      },
+      "member_01\\config.json": {
+        "bytes": 211,
+        "sha256": "6c739bb442f2248a35473e431f6af3b7f808bf6968e3ae8977a4126c23617c3e"
+      },
+      "member_01\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "d5a48226391035f202965ad40452fbb26ad4ca0e8b49d57997e651747e8c92e3"
+      },
+      "member_02\\config.json": {
+        "bytes": 211,
+        "sha256": "11c70c64e9c2c542544e4f737df13aa5a0be6108020caa42ddacd7390a3b207c"
+      },
+      "member_02\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "fdb2bb3e2dab9871c3dcc0593c9bfbf6368dab255f20980db2fe94870b165173"
+      },
+      "member_03\\config.json": {
+        "bytes": 213,
+        "sha256": "0e782943e75559b3906a2d8838a8964656ce5e4bbcddceeae6bebcf509bda2ba"
+      },
+      "member_03\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "787d0ad21f68b27d21ebb19fe01c3ed8a5f6a54c9e44883c9946eea51d347041"
+      },
+      "member_04\\config.json": {
+        "bytes": 213,
+        "sha256": "a20896803ad3e815f23d4c8c71350cf5ce0577bec6f61360f735570fef8e9564"
+      },
+      "member_04\\weights.npz": {
+        "bytes": 326718,
+        "sha256": "d0dfb18cab34c15c57b5c1262f5414e402e116c9e3ad624fc997e08342bdfa23"
+      },
+      "member_05\\config.json": {
+        "bytes": 213,
+        "sha256": "8affd4357bb31ff7660d60b0050a329ab381b1b39f472c96306542a14c4612e9"
+      },
+      "member_05\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "9c818c874539c990998bc5d41f0bb7a2bfea7eb2b2c90a63c5c09e91e5908a50"
+      },
+      "member_06\\config.json": {
+        "bytes": 211,
+        "sha256": "82bd7c1cf315574b122ee58c813e2ae7f747e9a0a8685ea4a5f19ad7918bcb3d"
+      },
+      "member_06\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "e0d1ba9996c04230cd19e4426f9de62057fee5ab9a937fb2c0d15c1362d41b19"
+      },
+      "member_07\\config.json": {
+        "bytes": 211,
+        "sha256": "f46d28f71d074e00025417389eb41317655b2c62d942c3484169f16f365fe2f1"
+      },
+      "member_07\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "43f820da3719a121291f82e900c057fe139d5c13f8c4c85993f90a00a46fdae5"
+      },
+      "member_08\\config.json": {
+        "bytes": 213,
+        "sha256": "19e7ab565490bd7ccda58cac6783de956f24edb534360c4ef8091f71037a00b8"
+      },
+      "member_08\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "c0aa7528eda86783a67b4a880f7e61f300a7bc43de27d4089601f3c375c6b150"
+      },
+      "member_09\\config.json": {
+        "bytes": 213,
+        "sha256": "f5dcc9acac176d57c4e592925ad464b2e45703ab16df0a2cc35ae7cadc72fc5c"
+      },
+      "member_09\\weights.npz": {
+        "bytes": 330942,
+        "sha256": "4c8998f09e700ad18aaa7220afcff759dd889dd148bbc4587afd7d6ac2ba7214"
+      }
+    },
+    "stage": "equal_weight_ensemble",
+    "members": 10
+  }
+]

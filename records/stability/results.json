@@ -1,0 +1,162 @@
+[
+  {
+    "name": "attention_seed_7506",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 737,
+    "n": 798,
+    "accuracy": 92.35588972431077,
+    "scoring_seconds": 0.051901500002713874,
+    "train_tune_seconds": 5.922522699984256,
+    "external_prediction_and_score_seconds": 1.3177094999991823,
+    "checkpoint_bytes": 326931,
+    "hard_n": 355,
+    "hard_correct": 294,
+    "hard_accuracy": 82.81689882278442,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_7506",
+    "assets": {
+      "config.json": {
+        "bytes": 213,
+        "sha256": "c62125117cfc92ebb8ef184d352865ffa81e604c5db21af60f2dfa2390f54439"
+      },
+      "weights.npz": {
+        "bytes": 326718,
+        "sha256": "fcd279cc6a1f36a78b7cc7dce1839e0f26ef86ee79d2cb4128205aafb2a7e101"
+      }
+    },
+    "stage": "stability",
+    "internal_accuracy": null,
+    "epochs": 5,
+    "seed": 7506,
+    "fixed_epochs": 5,
+    "export_parity": true
+  },
+  {
+    "name": "attention_seed_17",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 732,
+    "n": 798,
+    "accuracy": 91.72932330827068,
+    "scoring_seconds": 0.05211219997727312,
+    "train_tune_seconds": 1.6701254000072367,
+    "external_prediction_and_score_seconds": 1.41656840001815,
+    "checkpoint_bytes": 326929,
+    "hard_n": 355,
+    "hard_correct": 289,
+    "hard_accuracy": 81.4084529876709,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_17",
+    "assets": {
+      "config.json": {
+        "bytes": 211,
+        "sha256": "6c739bb442f2248a35473e431f6af3b7f808bf6968e3ae8977a4126c23617c3e"
+      },
+      "weights.npz": {
+        "bytes": 326718,
+        "sha256": "d5a48226391035f202965ad40452fbb26ad4ca0e8b49d57997e651747e8c92e3"
+      }
+    },
+    "stage": "stability",
+    "internal_accuracy": null,
+    "epochs": 5,
+    "seed": 17,
+    "fixed_epochs": 5,
+    "export_parity": true
+  },
+  {
+    "name": "attention_seed_42",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 734,
+    "n": 798,
+    "accuracy": 91.97994987468671,
+    "scoring_seconds": 0.0502068999921903,
+    "train_tune_seconds": 1.62099140000646,
+    "external_prediction_and_score_seconds": 1.349849099991843,
+    "checkpoint_bytes": 326929,
+    "hard_n": 355,
+    "hard_correct": 291,
+    "hard_accuracy": 81.97183012962341,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_42",
+    "assets": {
+      "config.json": {
+        "bytes": 211,
+        "sha256": "11c70c64e9c2c542544e4f737df13aa5a0be6108020caa42ddacd7390a3b207c"
+      },
+      "weights.npz": {
+        "bytes": 326718,
+        "sha256": "fdb2bb3e2dab9871c3dcc0593c9bfbf6368dab255f20980db2fe94870b165173"
+      }
+    },
+    "stage": "stability",
+    "internal_accuracy": null,
+    "epochs": 5,
+    "seed": 42,
+    "fixed_epochs": 5,
+    "export_parity": true
+  },
+  {
+    "name": "attention_seed_2026",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 731,
+    "n": 798,
+    "accuracy": 91.60401002506266,
+    "scoring_seconds": 0.04815529999905266,
+    "train_tune_seconds": 1.524941800016677,
+    "external_prediction_and_score_seconds": 1.3661925999913365,
+    "checkpoint_bytes": 326931,
+    "hard_n": 355,
+    "hard_correct": 288,
+    "hard_accuracy": 81.1267614364624,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_2026",
+    "assets": {
+      "config.json": {
+        "bytes": 213,
+        "sha256": "0e782943e75559b3906a2d8838a8964656ce5e4bbcddceeae6bebcf509bda2ba"
+      },
+      "weights.npz": {
+        "bytes": 326718,
+        "sha256": "787d0ad21f68b27d21ebb19fe01c3ed8a5f6a54c9e44883c9946eea51d347041"
+      }
+    },
+    "stage": "stability",
+    "internal_accuracy": null,
+    "epochs": 5,
+    "seed": 2026,
+    "fixed_epochs": 5,
+    "export_parity": true
+  },
+  {
+    "name": "attention_seed_3407",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 732,
+    "n": 798,
+    "accuracy": 91.72932330827068,
+    "scoring_seconds": 0.0474244000215549,
+    "train_tune_seconds": 1.5785269999760203,
+    "external_prediction_and_score_seconds": 1.3206035000039265,
+    "checkpoint_bytes": 326931,
+    "hard_n": 355,
+    "hard_correct": 289,
+    "hard_accuracy": 81.4084529876709,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_3407",
+    "assets": {
+      "config.json": {
+        "bytes": 213,
+        "sha256": "a20896803ad3e815f23d4c8c71350cf5ce0577bec6f61360f735570fef8e9564"
+      },
+      "weights.npz": {
+        "bytes": 326718,
+        "sha256": "d0dfb18cab34c15c57b5c1262f5414e402e116c9e3ad624fc997e08342bdfa23"
+      }
+    },
+    "stage": "stability",
+    "internal_accuracy": null,
+    "epochs": 5,
+    "seed": 3407,
+    "fixed_epochs": 5,
+    "export_parity": true
+  }
+]

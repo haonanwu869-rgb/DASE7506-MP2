@@ -1,0 +1,26 @@
+{
+  "old_single": {
+    "fixes_new_single_errors": 12,
+    "breaks_new_single_correct": 18
+  },
+  "new_single": {
+    "fixes_new_single_errors": 0,
+    "breaks_new_single_correct": 0
+  },
+  "old_new_pair": {
+    "fixes_new_single_errors": 8,
+    "breaks_new_single_correct": 11
+  },
+  "old_five": {
+    "fixes_new_single_errors": 8,
+    "breaks_new_single_correct": 14
+  },
+  "new_five": {
+    "fixes_new_single_errors": 5,
+    "breaks_new_single_correct": 8
+  },
+  "old_new_ten": {
+    "fixes_new_single_errors": 5,
+    "breaks_new_single_correct": 11
+  }
+}

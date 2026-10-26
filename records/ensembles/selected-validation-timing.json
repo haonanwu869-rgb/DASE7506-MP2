@@ -1,0 +1,6 @@
+{
+  "model": "new_single",
+  "split": "validation",
+  "threads": 4,
+  "fresh_prediction_plus_scoring_wall_seconds": 2.057388799992623
+}

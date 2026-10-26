@@ -1,0 +1,23 @@
+{
+  "train": {
+    "candidate_count": 19020,
+    "hash_box_disagree": 30,
+    "heading_like_hash": 1,
+    "arithmetic_checked_candidates": 9200,
+    "arithmetic_bad_candidates": 252,
+    "bad_among_final_correct": 33,
+    "bad_among_final_incorrect": 219
+  },
+  "validation": {
+    "candidate_count": 3192,
+    "hash_box_disagree": 8,
+    "heading_like_hash": 1,
+    "arithmetic_checked_candidates": 1524,
+    "arithmetic_bad_candidates": 36,
+    "bad_among_final_correct": 3,
+    "bad_among_final_incorrect": 33,
+    "original_61_errors_with_bad_arithmetic": 3,
+    "original_61_errors_with_any_arithmetic_checked": 27,
+    "original_61_errors_hash_box_disagree": 1
+  }
+}

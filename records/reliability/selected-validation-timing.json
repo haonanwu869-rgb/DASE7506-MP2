@@ -1,0 +1,6 @@
+{
+  "model": "both_seed_7506",
+  "split": "validation",
+  "threads": 4,
+  "fresh_prediction_plus_scoring_wall_seconds": 1.7327301999903284
+}

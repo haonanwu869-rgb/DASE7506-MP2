@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    7506,
+    17,
+    42,
+    2026,
+    3407
+  ],
+  "epochs": 5,
+  "architecture": "original 64-hidden attention",
+  "vary": [
+    "initialization",
+    "dropout",
+    "training shuffle"
+  ],
+  "test_used": false
+}

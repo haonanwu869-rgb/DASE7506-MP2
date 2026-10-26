@@ -1,0 +1,25 @@
+{
+  "author": "wuhaonan",
+  "student_id": "3036843288",
+  "date": "2026-10-26",
+  "validation_accuracy": 93.10776942355889,
+  "test": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 381,
+    "n": 467,
+    "accuracy": 81.5845824411135,
+    "scoring_seconds": 0.20083940000040457
+  },
+  "timing": {
+    "split": "test",
+    "threads": 4,
+    "prediction_process_seconds": 2.8266077999724075,
+    "scoring_process_seconds": 0.6778664999874309,
+    "total_seconds": 3.5044742999598384
+  },
+  "inference_asset_bytes": 331155,
+  "model_asset_hashes_verified": true,
+  "test_used_for_tuning": false,
+  "note": "Historical records describe the state at their creation; final results are in evaluation/."
+}

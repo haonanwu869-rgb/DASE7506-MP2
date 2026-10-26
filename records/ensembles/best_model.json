@@ -1,0 +1,6 @@
+{
+  "name": "new_single",
+  "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\ensembles\\new_single",
+  "method": "ensemble_submission.py",
+  "selection_basis": "validation accuracy; ties prefer smaller checkpoint"
+}

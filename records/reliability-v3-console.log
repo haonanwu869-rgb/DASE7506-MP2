@@ -1,0 +1,72 @@
+Train=4755, internal=3804/951, validation=798, validation distinct-answer subset=355
+format_seed_7506 refit {'epoch': 1, 'loss': 0.3055512268021781}
+format_seed_7506 refit {'epoch': 5, 'loss': 0.1618889314519118}
+RESULT format_seed_7506: 730/798 = 91.48%; hard=80.85%; 0.314 MiB; wall=1.45s
+arithmetic_seed_7506 refit {'epoch': 1, 'loss': 0.303923841903513}
+arithmetic_seed_7506 refit {'epoch': 5, 'loss': 0.15467358320074}
+RESULT arithmetic_seed_7506: 737/798 = 92.36%; hard=82.82%; 0.314 MiB; wall=1.74s
+both_seed_7506 refit {'epoch': 1, 'loss': 0.2999904184091981}
+both_seed_7506 refit {'epoch': 5, 'loss': 0.1450937579200847}
+RESULT both_seed_7506: 743/798 = 93.11%; hard=84.51%; 0.316 MiB; wall=1.78s
+both_seed_17 refit {'epoch': 1, 'loss': 0.2980581367586188}
+both_seed_17 refit {'epoch': 5, 'loss': 0.14598152410752138}
+RESULT both_seed_17: 737/798 = 92.36%; hard=82.82%; 0.316 MiB; wall=1.73s
+both_seed_42 refit {'epoch': 1, 'loss': 0.2994297457668934}
+both_seed_42 refit {'epoch': 5, 'loss': 0.150150664193021}
+RESULT both_seed_42: 739/798 = 92.61%; hard=83.38%; 0.316 MiB; wall=1.74s
+both_seed_2026 refit {'epoch': 1, 'loss': 0.29576458254697824}
+both_seed_2026 refit {'epoch': 5, 'loss': 0.14388839046536434}
+RESULT both_seed_2026: 734/798 = 91.98%; hard=81.97%; 0.316 MiB; wall=1.75s
+both_seed_3407 refit {'epoch': 1, 'loss': 0.2980539236033627}
+both_seed_3407 refit {'epoch': 5, 'loss': 0.15557079241228153}
+RESULT both_seed_3407: 732/798 = 91.73%; hard=81.41%; 0.316 MiB; wall=1.74s
+{
+  "comparisons": [
+    {
+      "seed": 7506,
+      "old_correct": 737,
+      "new_correct": 743,
+      "delta_correct": 6,
+      "fixes": 18,
+      "breaks": 12
+    },
+    {
+      "seed": 17,
+      "old_correct": 732,
+      "new_correct": 737,
+      "delta_correct": 5,
+      "fixes": 18,
+      "breaks": 13
+    },
+    {
+      "seed": 42,
+      "old_correct": 734,
+      "new_correct": 739,
+      "delta_correct": 5,
+      "fixes": 14,
+      "breaks": 9
+    },
+    {
+      "seed": 2026,
+      "old_correct": 731,
+      "new_correct": 734,
+      "delta_correct": 3,
+      "fixes": 14,
+      "breaks": 11
+    },
+    {
+      "seed": 3407,
+      "old_correct": 732,
+      "new_correct": 732,
+      "delta_correct": 0,
+      "fixes": 10,
+      "breaks": 10
+    }
+  ],
+  "old_mean": 91.8796992481203,
+  "new_mean": 92.35588972431079,
+  "new_sample_std_pp": 0.53899281121821,
+  "mean_delta_pp": 0.4761904761904788,
+  "hard_new_mean": 82.8169014084507,
+  "hard_old_mean": 81.74647887323944
+}

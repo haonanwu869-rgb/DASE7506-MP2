@@ -1,0 +1,6 @@
+{
+  "model": "step3_attention",
+  "split": "validation",
+  "threads": 4,
+  "fresh_prediction_plus_scoring_wall_seconds": 1.3547674999863375
+}

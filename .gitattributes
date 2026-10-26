@@ -1,0 +1,2 @@
+# Preserve exact release bytes so FILES_SHA256.json also verifies fresh clones.
+* -text

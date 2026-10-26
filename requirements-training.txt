@@ -1,0 +1,2 @@
+-r requirements-inference.txt
+torch==2.14.1

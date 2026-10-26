@@ -1,0 +1,299 @@
+[
+  {
+    "name": "baseline",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 696,
+    "n": 798,
+    "accuracy": 87.21804511278195,
+    "scoring_seconds": 0.07494190000579692,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 1.270728200004669,
+    "checkpoint_bytes": 16664,
+    "hard_n": 355,
+    "hard_correct": 263,
+    "hard_accuracy": 74.08450841903687,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\model_bundle",
+    "assets": {
+      "model.pkl": {
+        "bytes": 16664,
+        "sha256": "d15ab4168ef325d3b0ffebe9ad17b73208890b5aee1d798e0c8e18eb6ccf416b"
+      }
+    },
+    "stage": 0
+  },
+  {
+    "name": "baseline_parseable",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 711,
+    "n": 798,
+    "accuracy": 89.09774436090225,
+    "scoring_seconds": 0.06383329999516718,
+    "train_tune_seconds": 0,
+    "external_prediction_and_score_seconds": 1.2468974000075832,
+    "checkpoint_bytes": 17424,
+    "hard_n": 355,
+    "hard_correct": 268,
+    "hard_accuracy": 75.49296021461487,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\baseline_parseable",
+    "assets": {
+      "config.json": {
+        "bytes": 54,
+        "sha256": "70728817e4a3a3cdda611be944e3a38ef2c93fc553bd2da35b28281b8a97b71e"
+      },
+      "weights.npz": {
+        "bytes": 17370,
+        "sha256": "6880e6ce2cef625bc4c9652cce75d5260cb0d02529463fc212be7aa4f5309d7d"
+      }
+    },
+    "stage": 0
+  },
+  {
+    "name": "step1_logreg",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 716,
+    "n": 798,
+    "accuracy": 89.72431077694236,
+    "scoring_seconds": 0.0547093000204768,
+    "train_tune_seconds": 5.793939600000158,
+    "external_prediction_and_score_seconds": 1.118306999997003,
+    "checkpoint_bytes": 13338,
+    "hard_n": 355,
+    "hard_correct": 273,
+    "hard_accuracy": 76.9014060497284,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step1_logreg",
+    "assets": {
+      "config.json": {
+        "bytes": 68,
+        "sha256": "716323c391c50e3f163407756f9f38f3bacdf06c14a7ef5c4eaccd763c99dca7"
+      },
+      "weights.npz": {
+        "bytes": 13270,
+        "sha256": "d52d6dfc677d7500397dbea956b7e8a9c5dc851931cbb643000ca678aadbb00a"
+      }
+    },
+    "stage": 1,
+    "internal_best": {
+      "C": 0.01,
+      "accuracy": 0.9127234220504761,
+      "iterations": 114
+    },
+    "full_fit_iterations": 120
+  },
+  {
+    "name": "step2_mlp_bce",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 715,
+    "n": 798,
+    "accuracy": 89.59899749373433,
+    "scoring_seconds": 0.058789500006241724,
+    "train_tune_seconds": 6.0201612999953795,
+    "external_prediction_and_score_seconds": 1.2919886000163388,
+    "checkpoint_bytes": 535206,
+    "hard_n": 355,
+    "hard_correct": 272,
+    "hard_accuracy": 76.61972045898438,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step2_mlp_bce",
+    "assets": {
+      "config.json": {
+        "bytes": 208,
+        "sha256": "81363d079221e452075a714264858791d738a5e32ec22bd67b008db33200ca73"
+      },
+      "weights.npz": {
+        "bytes": 534998,
+        "sha256": "d17cf7ea741bc204fc9f5d91660515f4f6832ebcc8eab04cbef151bb646644ea"
+      }
+    },
+    "stage": 2,
+    "internal_accuracy": 0.9074658155441284,
+    "epochs": 6,
+    "export_parity": true
+  },
+  {
+    "name": "step2_mlp_pairwise",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 716,
+    "n": 798,
+    "accuracy": 89.72431077694236,
+    "scoring_seconds": 0.07195850001880899,
+    "train_tune_seconds": 2.399062699987553,
+    "external_prediction_and_score_seconds": 1.2544470999855548,
+    "checkpoint_bytes": 535211,
+    "hard_n": 355,
+    "hard_correct": 273,
+    "hard_accuracy": 76.9014060497284,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step2_mlp_pairwise",
+    "assets": {
+      "config.json": {
+        "bytes": 213,
+        "sha256": "4becef39a36ccb1867bff3805db735da79838f0c54584ef342be2cfbae5e7ff8"
+      },
+      "weights.npz": {
+        "bytes": 534998,
+        "sha256": "8a6a41a8ed8185d8c5e2c7dab7bd523a71419013eae576d56954ad3eeb325cdf"
+      }
+    },
+    "stage": 2,
+    "internal_accuracy": 0.9085173606872559,
+    "epochs": 3,
+    "export_parity": true
+  },
+  {
+    "name": "step2_mlp_listwise",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 725,
+    "n": 798,
+    "accuracy": 90.85213032581454,
+    "scoring_seconds": 0.05916370000340976,
+    "train_tune_seconds": 2.224112800002331,
+    "external_prediction_and_score_seconds": 1.244467500015162,
+    "checkpoint_bytes": 535211,
+    "hard_n": 355,
+    "hard_correct": 282,
+    "hard_accuracy": 79.4366180896759,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step2_mlp_listwise",
+    "assets": {
+      "config.json": {
+        "bytes": 213,
+        "sha256": "971de2c99ab617bfe05a2f2831e335fb991d77bd37c1485a780acff8eab61905"
+      },
+      "weights.npz": {
+        "bytes": 534998,
+        "sha256": "490d11890c59628db8b12a838eb998a4a2508f794493e58000682efeaab18112"
+      }
+    },
+    "stage": 2,
+    "internal_accuracy": 0.9074658155441284,
+    "epochs": 3,
+    "export_parity": true
+  },
+  {
+    "name": "step3_features_mlp",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 731,
+    "n": 798,
+    "accuracy": 91.60401002506266,
+    "scoring_seconds": 0.054684200003976,
+    "train_tune_seconds": 5.233544599992456,
+    "external_prediction_and_score_seconds": 1.5716336999903433,
+    "checkpoint_bytes": 811561,
+    "hard_n": 355,
+    "hard_correct": 288,
+    "hard_accuracy": 81.1267614364624,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step3_features_mlp",
+    "assets": {
+      "config.json": {
+        "bytes": 211,
+        "sha256": "c354f69e63e8a74086d56f35ad790a55fc4be0686732640483acdd05af3a1cc4"
+      },
+      "weights.npz": {
+        "bytes": 811350,
+        "sha256": "f7ac3840d57ee4c7104b4ea6cbb5ef365a2fb27d8b414f44fc97636dcb85459c"
+      }
+    },
+    "stage": 3,
+    "internal_accuracy": 0.9095688462257385,
+    "epochs": 2,
+    "export_parity": true
+  },
+  {
+    "name": "step3_attention",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 737,
+    "n": 798,
+    "accuracy": 92.35588972431077,
+    "scoring_seconds": 0.05383079999592155,
+    "train_tune_seconds": 5.3684213000233285,
+    "external_prediction_and_score_seconds": 1.5189149999932852,
+    "checkpoint_bytes": 326931,
+    "hard_n": 355,
+    "hard_correct": 294,
+    "hard_accuracy": 82.81689882278442,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step3_attention",
+    "assets": {
+      "config.json": {
+        "bytes": 213,
+        "sha256": "c62125117cfc92ebb8ef184d352865ffa81e604c5db21af60f2dfa2390f54439"
+      },
+      "weights.npz": {
+        "bytes": 326718,
+        "sha256": "fcd279cc6a1f36a78b7cc7dce1839e0f26ef86ee79d2cb4128205aafb2a7e101"
+      }
+    },
+    "stage": 3,
+    "internal_accuracy": 0.9137749671936035,
+    "epochs": 5,
+    "export_parity": true
+  },
+  {
+    "name": "step4_tree_binary",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 701,
+    "n": 798,
+    "accuracy": 87.84461152882206,
+    "scoring_seconds": 0.05329060001531616,
+    "train_tune_seconds": 5.8158170000242535,
+    "external_prediction_and_score_seconds": 4.4313564999902155,
+    "checkpoint_bytes": 82958,
+    "hard_n": 355,
+    "hard_correct": 258,
+    "hard_accuracy": 72.67605662345886,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step4_tree_binary",
+    "assets": {
+      "config.json": {
+        "bytes": 390,
+        "sha256": "d82dfe9f1e6dca282ad00005fc9bb6c098f2a0891d2bb71a6471e7b66fecd498"
+      },
+      "model.txt": {
+        "bytes": 82568,
+        "sha256": "36e3499cfe5a5e5d0d188c371150d50a82c9a761e258f4513934feaa4f1d6d9f"
+      }
+    },
+    "stage": 4,
+    "internal_best": {
+      "leaves": 7,
+      "rounds": 28,
+      "accuracy": 0.8832807540893555
+    }
+  },
+  {
+    "name": "step4_tree_lambdarank",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 704,
+    "n": 798,
+    "accuracy": 88.22055137844612,
+    "scoring_seconds": 0.051701099990168586,
+    "train_tune_seconds": 9.631697900011204,
+    "external_prediction_and_score_seconds": 4.351858599984553,
+    "checkpoint_bytes": 189691,
+    "hard_n": 355,
+    "hard_correct": 261,
+    "hard_accuracy": 73.52112531661987,
+    "checkpoint": "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\four_steps\\step4_tree_lambdarank",
+    "assets": {
+      "config.json": {
+        "bytes": 434,
+        "sha256": "a7bcdf6616a0478daa6136d9af3b53daa3e7302382da84c47f751e40e650b8fd"
+      },
+      "model.txt": {
+        "bytes": 189257,
+        "sha256": "e1a455c583f06c027f131443dfdc9feec9978e0965877d6dcc9b2fb20126d160"
+      }
+    },
+    "stage": 4,
+    "internal_best": {
+      "leaves": 15,
+      "rounds": 71,
+      "accuracy": 0.8990536332130432
+    }
+  }
+]

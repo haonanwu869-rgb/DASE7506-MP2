@@ -1,0 +1,12 @@
+{
+  "kind": "attention",
+  "features": "both",
+  "loss": "listwise",
+  "hidden": 64,
+  "epochs": 5,
+  "seed": 7506,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "dropout": 0.15,
+  "batch_questions": 128
+}

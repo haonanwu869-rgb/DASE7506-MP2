@@ -1,0 +1,50 @@
+{
+  "comparisons": [
+    {
+      "seed": 7506,
+      "old_correct": 737,
+      "new_correct": 743,
+      "delta_correct": 6,
+      "fixes": 18,
+      "breaks": 12
+    },
+    {
+      "seed": 17,
+      "old_correct": 732,
+      "new_correct": 737,
+      "delta_correct": 5,
+      "fixes": 18,
+      "breaks": 13
+    },
+    {
+      "seed": 42,
+      "old_correct": 734,
+      "new_correct": 739,
+      "delta_correct": 5,
+      "fixes": 14,
+      "breaks": 9
+    },
+    {
+      "seed": 2026,
+      "old_correct": 731,
+      "new_correct": 734,
+      "delta_correct": 3,
+      "fixes": 14,
+      "breaks": 11
+    },
+    {
+      "seed": 3407,
+      "old_correct": 732,
+      "new_correct": 732,
+      "delta_correct": 0,
+      "fixes": 10,
+      "breaks": 10
+    }
+  ],
+  "old_mean": 91.8796992481203,
+  "new_mean": 92.35588972431079,
+  "new_sample_std_pp": 0.53899281121821,
+  "mean_delta_pp": 0.4761904761904788,
+  "hard_new_mean": 82.8169014084507,
+  "hard_old_mean": 81.74647887323944
+}

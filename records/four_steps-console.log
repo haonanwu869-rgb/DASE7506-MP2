@@ -1,0 +1,44 @@
+Train=4755, internal=3804/951, validation=798, validation distinct-answer subset=355
+RESULT baseline: 696/798 = 87.22%; hard=74.08%; 0.016 MiB; wall=1.27s
+RESULT baseline_parseable: 711/798 = 89.10%; hard=75.49%; 0.017 MiB; wall=1.25s
+LogReg internal {'C': 0.001, 'accuracy': 0.9064143300056458, 'iterations': 43}
+LogReg internal {'C': 0.01, 'accuracy': 0.9127234220504761, 'iterations': 114}
+LogReg internal {'C': 0.1, 'accuracy': 0.9064143300056458, 'iterations': 237}
+LogReg internal {'C': 1.0, 'accuracy': 0.9043112397193909, 'iterations': 354}
+LogReg internal {'C': 10.0, 'accuracy': 0.9043112397193909, 'iterations': 345}
+RESULT step1_logreg: 716/798 = 89.72%; hard=76.90%; 0.013 MiB; wall=1.12s
+step2_mlp_bce tune {'epoch': 1, 'loss': 0.5145991885198278, 'accuracy': 0.8759200572967529}
+step2_mlp_bce tune {'epoch': 5, 'loss': 0.36818912308800233, 'accuracy': 0.9043112397193909}
+step2_mlp_bce tune {'epoch': 10, 'loss': 0.2729182750864109, 'accuracy': 0.9043112397193909}
+step2_mlp_bce tune {'epoch': 15, 'loss': 0.21355488025176914, 'accuracy': 0.8958990573883057}
+step2_mlp_bce refit {'epoch': 1, 'loss': 0.5055653559484692}
+step2_mlp_bce refit {'epoch': 5, 'loss': 0.3721206324020269}
+RESULT step2_mlp_bce: 715/798 = 89.60%; hard=76.62%; 0.510 MiB; wall=1.29s
+step2_mlp_pairwise tune {'epoch': 1, 'loss': 0.5555626625267615, 'accuracy': 0.8874868750572205}
+step2_mlp_pairwise tune {'epoch': 5, 'loss': 0.2859253020943402, 'accuracy': 0.9022082090377808}
+step2_mlp_pairwise tune {'epoch': 10, 'loss': 0.1585558841218457, 'accuracy': 0.8969506025314331}
+step2_mlp_pairwise refit {'epoch': 1, 'loss': 0.5471243919195562}
+RESULT step2_mlp_pairwise: 716/798 = 89.72%; hard=76.90%; 0.510 MiB; wall=1.25s
+step2_mlp_listwise tune {'epoch': 1, 'loss': 0.31310104010734396, 'accuracy': 0.8990536332130432}
+step2_mlp_listwise tune {'epoch': 5, 'loss': 0.15380288956669227, 'accuracy': 0.9032597541809082}
+step2_mlp_listwise tune {'epoch': 10, 'loss': 0.06918794800822166, 'accuracy': 0.9032597541809082}
+step2_mlp_listwise refit {'epoch': 1, 'loss': 0.3053864421935989}
+RESULT step2_mlp_listwise: 725/798 = 90.85%; hard=79.44%; 0.510 MiB; wall=1.24s
+step3_features_mlp tune {'epoch': 1, 'loss': 0.273224514428248, 'accuracy': 0.8980020880699158}
+step3_features_mlp tune {'epoch': 5, 'loss': 0.0635043036400269, 'accuracy': 0.9001051783561707}
+step3_features_mlp tune {'epoch': 10, 'loss': 0.009706669413610964, 'accuracy': 0.9053627848625183}
+step3_features_mlp refit {'epoch': 1, 'loss': 0.2779759678523498}
+RESULT step3_features_mlp: 731/798 = 91.60%; hard=81.13%; 0.774 MiB; wall=1.57s
+step3_attention tune {'epoch': 1, 'loss': 0.31536705815453636, 'accuracy': 0.9043112397193909}
+step3_attention tune {'epoch': 5, 'loss': 0.1481806782674589, 'accuracy': 0.9137749671936035}
+step3_attention tune {'epoch': 10, 'loss': 0.10773120994839257, 'accuracy': 0.910620391368866}
+step3_attention tune {'epoch': 15, 'loss': 0.07495753369152107, 'accuracy': 0.9064143300056458}
+step3_attention refit {'epoch': 1, 'loss': 0.3044937015300544}
+step3_attention refit {'epoch': 5, 'loss': 0.16166553918495538}
+RESULT step3_attention: 737/798 = 92.36%; hard=82.82%; 0.312 MiB; wall=1.52s
+Tree internal binary {'leaves': 7, 'rounds': 28, 'accuracy': 0.8832807540893555}
+Tree internal binary {'leaves': 15, 'rounds': 31, 'accuracy': 0.8780231475830078}
+RESULT step4_tree_binary: 701/798 = 87.84%; hard=72.68%; 0.079 MiB; wall=4.43s
+Tree internal lambdarank {'leaves': 7, 'rounds': 41, 'accuracy': 0.8948475122451782}
+Tree internal lambdarank {'leaves': 15, 'rounds': 71, 'accuracy': 0.8990536332130432}
+RESULT step4_tree_lambdarank: 704/798 = 88.22%; hard=73.52%; 0.181 MiB; wall=4.35s

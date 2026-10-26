@@ -1,0 +1,53 @@
+{
+  "aggregation": "equal_probability_mean",
+  "temperature": 1,
+  "seeds": [
+    7506,
+    17,
+    42,
+    2026,
+    3407
+  ],
+  "plans": {
+    "old_single": [
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_7506"
+    ],
+    "new_single": [
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_7506"
+    ],
+    "old_new_pair": [
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_7506",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_7506"
+    ],
+    "old_five": [
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_7506",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_17",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_42",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_2026",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_3407"
+    ],
+    "new_five": [
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_7506",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_17",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_42",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_2026",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_3407"
+    ],
+    "old_new_ten": [
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_7506",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_17",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_42",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_2026",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\stability\\attention_seed_3407",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_7506",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_17",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_42",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_2026",
+      "D:\\Desktop\\7506AdvancedMachineLearning\\DASE7506-MP2-main\\code\\runs\\reliability\\both_seed_3407"
+    ]
+  },
+  "weight_search": false,
+  "retraining": false,
+  "test_used": false,
+  "selection_rule": "Highest official validation accuracy; ties prefer fewer asset bytes"
+}

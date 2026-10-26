@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    7506,
+    17,
+    42,
+    2026,
+    3407
+  ],
+  "epochs": 5,
+  "modes": [
+    "format",
+    "arithmetic",
+    "both"
+  ],
+  "seed_7506_ablations": true,
+  "other_seeds_combined_only": true,
+  "test_used": false
+}
